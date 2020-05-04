@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MobilProgramlama_Vize</string>
+    <string name="kullaniciAdi">Kullanıcı Adı</string>
+    <string name="sifre">Şifre</string>
+    <string name="giris">GİRİŞ YAP</string>
+    <string name="girisEkrani">Giriş Ekranı</string>
+    <string name="hosgeldiniz">HOŞGELDİNİZ</string>
+</resources>

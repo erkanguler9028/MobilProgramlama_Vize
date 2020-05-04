@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splashbackground"
+    tools:context=".SplashActivity">
+
+    <TextView
+        android:id="@+id/hosgeldiniz"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginButton"
+        android:layout_alignLeft="@+id/passwordEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="120dp"
+        android:clickable="true"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/hosgeldiniz"
+        android:textColor="@color/colorYazi"
+        android:textSize="50dp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+</RelativeLayout>
+
+
